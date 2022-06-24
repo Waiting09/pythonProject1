@@ -1,3 +1,4 @@
+"""
 #定义一个变量
 a = 'hello python world'
 print(a)
@@ -43,6 +44,7 @@ print('‘'+c+'’')
 age = 23
 message = "Happy " + str(age) + "rd Birthday!"
 print(message)
+"""
 
 
 

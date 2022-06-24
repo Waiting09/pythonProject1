@@ -20,6 +20,7 @@
 # # with open的方式打开文件进行读写后会自行关闭文件
 # w+ 会清空，再写入，如果没有文件，会创建新文件
 # a+ 会在最末尾的位置，追加数据，不清空原来的内容，如果没有文件，会创建新文件
+data = "写入文"
 with open('data.txt', 'w+', encoding='utf-8') as j:
-    print(j.write("1"))
+    print(j.write(data))
 print(j.closed)  # 查看关闭状态
